@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilo.css">
+    <script type="module" src="js/script.js"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <title>Desafio 2 - Ciclo 2</title>
+</head>
+<body>
+    <header class="flex">
+        <h1>ME ACHA!</h1>
+        <P>ENCONTRE UM ENDEREÇO PELO NÚMERO DE CEP</P>
+        <div class="icon-content flex center">
+            <span class="material-icons flex center icon">travel_explore</span>                
+        </div>
+    </header>
+    <main class="flex center">
+        <div id="form">
+            <form action="" method="GET">
+                <label for="inputCep">Cep</label><br>
+                <input type="text" name="inputCep" id="inputCep" required><br>
+                <label for="logradouro">Rua</label><br>
+                <input type="text" name="rua" id="logradouro" disabled><br>
+                <label for="bairro">Bairro</label><br>
+                <input type="text" name="bairro" id="bairro" disabled><br>
+                <label for="localidade">Cidade</label><br>
+                <input type="text" name="cidade" id="localidade" disabled><br>
+                <label for="urf">Estado</label><br>
+                <input type="text" name="estado" id="uf" disabled><br>
+                <input type="button" value="BUSCAR" id="btnBuscarCep">
+            </form>
+        </div>
+    </main>
+    <footer></footer>
+</body>
+</html>
